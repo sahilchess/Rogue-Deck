@@ -1,0 +1,79 @@
+[gd_scene load_steps=9 format=3 uid="uid://be1gjjojrl4xy"]
+
+[ext_resource type="Texture2D" uid="uid://bmi1c6m2yfcc" path="res://assets/pics/Characters/Chicken.png" id="1_245eq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4ay3"]
+atlas = ExtResource("1_245eq")
+region = Rect2(0, 0, 120, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aht7i"]
+atlas = ExtResource("1_245eq")
+region = Rect2(120, 0, 120, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jffn"]
+atlas = ExtResource("1_245eq")
+region = Rect2(0, 120, 120, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kpo4j"]
+atlas = ExtResource("1_245eq")
+region = Rect2(120, 120, 120, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4n42c"]
+atlas = ExtResource("1_245eq")
+region = Rect2(0, 240, 120, 120)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c5snn"]
+atlas = ExtResource("1_245eq")
+region = Rect2(120, 240, 120, 120)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_aht7i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4ay3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4ay3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4ay3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4ay3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4ay3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aht7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aht7i")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jffn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kpo4j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4n42c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c5snn")
+}],
+"loop": true,
+"name": &"running",
+"speed": 3.0
+}]
+
+[node name="chicken" type="AnimatedSprite2D"]
+texture_filter = 1
+sprite_frames = SubResource("SpriteFrames_aht7i")
+animation = &"running"
+frame_progress = 0.92076415

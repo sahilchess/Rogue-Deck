@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dicwclp8sxnpq"
-path="res://.godot/imported/Character_sheet.png-56b94cf9414bc43c6a4efe1504d714fa.ctex"
+uid="uid://u12nmfsgxjl1"
+path="res://.godot/imported/cat.png-b45b8ae47c80c93f16f9644bc102ab5b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pics/Characters/Mecha-stone Golem 0.1/PNG sheet/Character_sheet.png"
-dest_files=["res://.godot/imported/Character_sheet.png-56b94cf9414bc43c6a4efe1504d714fa.ctex"]
+source_file="res://assets/pics/Characters/cat.png"
+dest_files=["res://.godot/imported/cat.png-b45b8ae47c80c93f16f9644bc102ab5b.ctex"]
 
 [params]
 

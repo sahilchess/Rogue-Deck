@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfayk5kmln76j"
-path="res://.godot/imported/Laser_sheet.png-9d577a9815f46edddab4069a3e7c316a.ctex"
+uid="uid://hun4oew45lkf"
+path="res://.godot/imported/cat with Tool.png-ce1c1b8a2801770dcb489e1e17a62a47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pics/Characters/Mecha-stone Golem 0.1/weapon PNG/Laser_sheet.png"
-dest_files=["res://.godot/imported/Laser_sheet.png-9d577a9815f46edddab4069a3e7c316a.ctex"]
+source_file="res://assets/pics/Characters/cat with Tool.png"
+dest_files=["res://.godot/imported/cat with Tool.png-ce1c1b8a2801770dcb489e1e17a62a47.ctex"]
 
 [params]
 

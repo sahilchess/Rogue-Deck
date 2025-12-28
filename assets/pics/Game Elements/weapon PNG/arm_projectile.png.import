@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://u12nmfsgxjl1"
-path="res://.godot/imported/Bunny.png-9a2de5553c02cde30453a266eff333a6.ctex"
+uid="uid://dropt43xx4nch"
+path="res://.godot/imported/arm_projectile.png-c62693cccf99327c422e8428e94bab01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/pics/Characters/Bunny.png"
-dest_files=["res://.godot/imported/Bunny.png-9a2de5553c02cde30453a266eff333a6.ctex"]
+source_file="res://assets/pics/Game Elements/weapon PNG/arm_projectile.png"
+dest_files=["res://.godot/imported/arm_projectile.png-c62693cccf99327c422e8428e94bab01.ctex"]
 
 [params]
 
